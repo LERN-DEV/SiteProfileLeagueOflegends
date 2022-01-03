@@ -1,0 +1,108 @@
+.body{}
+.body video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.container{
+    width:  100%;
+    max-width: 100%;
+    min-width: 1224px;
+    min-height: 757px;
+    max-height: 100%;
+    margin: 0; /* 0 ou 0 auto */
+}
+.row{}
+.button_plays{}
+.button_plays img{}
+
+.ranqueadaSolo{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 10%;
+    width: 100%;
+    display: -webkit-box;
+}
+
+.ranqueadaSolo_taxaDeVitoria {
+    padding-left: 10%;
+}
+.ranqueadaSolo_taxaDeVitoria h3{}
+.ranqueadaSolo_taxaDeVitoria h4{}
+.ranqueadaSolo_taxaDeVitoria h6{}
+.ranqueadaSolo img{
+    padding-top: 20px;
+}
+
+.ranqueadaFlex{
+    display: -webkit-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    padding-left: 10%;
+    width: 100%;
+}
+.ranqueadaFlex_taxaDeVitoria{
+    padding-left: 10%;}
+.ranqueadaFlex_taxaDeVitoria h3{}
+.ranqueadaFlex_taxaDeVitoria h4{}
+.ranqueadaFlex_taxaDeVitoria h6{}
+.ranqueadaFlex img{
+    padding-top: 20px;
+}
+
+.estilo__DeJogo{
+    padding-left: 5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding-right: 5%;
+}
+.estilo__DeJogo h2{}
+.estilo__DeJogo p{}
+.perfil_Jogador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfil_Jogador h2{}
+.perfil_Jogador img{}
+.principais_Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.principais_Main img{}
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.twitch{}
+.twitch img{
+    border-radius: 10px;
+    max-width: 64px;
+    max-height: 128px;
+    width: auto;
+    height: auto;
+}
+.instagram{}
+.instagram img{
+    border-radius: 10px;
+    max-width: 64px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.facebook{}
+.facebook img{
+    border-radius: 10px;
+    max-width: 64px;
+    max-height: 64px;
+    width: auto;
+    height: auto;
+}
+
+
